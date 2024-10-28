@@ -8,38 +8,56 @@ nav#menu ul{
     text-transform: uppercase;
     list-style: none;
     position: absolute;
-    top: 60px;
-    left: 930px;
-}
-
-.foto img{
-    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fen%2Ffree-png-psvgc&psig=AOvVaw2C6p6N6YnCfTXmxG7vSVXz&ust=1729079844603000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKi8z8KqkIkDFQAAAAAdAAAAABAe);
-}
-
-.foto{
-    text-align: center;
+    top: 80px;
+    left: 79%;
 }
 nav#menu{
-    display: block;
+    display: inline-block;
+    color: white;
+    background: rgb(0, 0, 0);
+    padding: 10px;
+   
 }
- 
 nav#menu li{
     display: inline-block;
     background-color: rgb(89,21,206);
     padding: 10px;
-
+ 
+}
+.local{
+    color: black;
+    text-align: center;
+ 
+}
+form{
+    background-color: white;
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 0 0 90px white;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
 }
 body{
     background: rgb(74, 7, 191);
-    
 }
 header{
-    background-color: antiquewhite;
+    background-color: rgb(245, 236, 224);
     padding-top: 70px;
     padding-bottom: 12px;
     position: relative;
+   
 }
-
+.foto{
+    text-align: center;
+}
+.fonte{
+    text-transform: uppercase;
+    list-style: none;
+    color: white;
+}
 /*Pseudoclasses para estilização de menu de navegação*/
 nav#menu a:link{
     text-decoration: none;
@@ -50,15 +68,8 @@ nav#menu a:visited{
     text-decoration: none;                                                  
     color: antiquewhite;
     font-weight: bold;
-}
-nav#menu a:hover{
-    color: rgb(46, 5, 116);   
+   
 }
 nav#menu li:hover{
-    background-color: rgb(71, 13, 170);
-    
-}
-
-
-/* Manipulação de imagens do projeto, na página produtos */
-
+    background-color: rgb(71, 13, 170);  }
+ 
